@@ -27,7 +27,7 @@ WebBased(SGB_CODE, SGB_SECRET).then(response => {
 
 /* Web Based (Region) */
 // Maybe you can use it for absent regional members
-WebBasedRegion(SGB_CODE, SGB_SECRET).then(response => {
+WebBasedRegion(SGB_CODE, SGB_SECRET, SGB_REGION).then(response => {
   console.log(response) // true or false
 })
 
