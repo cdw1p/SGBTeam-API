@@ -1,0 +1,29 @@
+{
+  "name": "sgbteam-api",
+  "version": "1.0.0",
+  "description": "SGB Team Official API to Check SGB Code Validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/testing.js"
+  },
+  "author": "cdw1",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "keywords": [
+    "sgbteam",
+    "sgbteam-api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdw1p/SGBTeam-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cdw1p/SGBTeam-API/issues"
+  },
+  "homepage": "https://github.com/cdw1p/SGBTeam-API.git#readme",
+  "directories": {
+    "test": "test"
+  }
+}
